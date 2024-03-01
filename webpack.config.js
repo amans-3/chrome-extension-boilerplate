@@ -26,9 +26,9 @@ const isDevelopment = process.env.NODE_ENV !== 'production';
 const options = {
   mode: process.env.NODE_ENV || 'development',
   entry: {
-    newtab: path.join(__dirname, 'src', 'pages', 'Newtab', 'index.jsx'),
-    popup: path.join(__dirname, 'src', 'pages', 'Popup', 'index.jsx'),
-    background: path.join(__dirname, 'src', 'pages', 'Background', 'index.js'),
+    newtab: path.join(__dirname, 'src', 'pages', 'newtab', 'index.jsx'),
+    popup: path.join(__dirname, 'src', 'pages', 'popup', 'index.jsx'),
+    background: path.join(__dirname, 'src', 'pages', 'background', 'index.js'),
   },
   output: {
     filename: '[name].bundle.js',

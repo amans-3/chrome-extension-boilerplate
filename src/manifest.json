@@ -4,7 +4,7 @@
   "name": "Extension Boilerplate",
   "description": "React + Tailwindcss + Javascript",
   "author": "example@gmail.com",
-  "background": { "service_worker": "background.bundle.js" },
+  "background": { "service_worker": "background.bundle.js", "type": "module" },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
